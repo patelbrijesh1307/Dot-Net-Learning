@@ -13,10 +13,25 @@ namespace Learning
 
         public static void Main(string[] args)
         {
+            //Queue Example 
+            Queue.BookPrice();
+
+
+            //List Example 
+            //ListEg listEg = new ListEg();
+            //listEg.Emplist();
+
+            //ListCountry listCountry = new ListCountry();
+            //ListCountry.CountryCap();
+
+
+            //Dictionary Example 
+            //Dictionary dictionary = new Dictionary();
+            //dictionary.StuMarksDic();
 
             //Params Function calling with Multiple Numbers to add
             //NumbersAdditions numbersAdditions = new NumbersAdditions();
-            NumbersAdditions.MultiNumbersAdditions(10, 13);
+            //NumbersAdditions.MultiNumbersAdditions(10, 13);
 
             //Partialmain partialmain = new Partialmain();
             //partialmain.FirstName = "Mark";
