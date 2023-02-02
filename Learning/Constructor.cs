@@ -60,5 +60,27 @@ namespace Learning
     //}
     class Constructor
     {
+        static int age;
+        string name;
+
+        public ConstrutorTypes()
+        {
+            name = "Mark";
+            age = 23;
+            Console.WriteLine("Name = {0} Age = {1}", name, age);
+            Console.ReadLine();
+        }
+        public ConstrutorTypes(string message)
+        {
+            Console.WriteLine("This is Parameterized Constructor Taking parameter to throw and output" + message);
+            Console.ReadLine();
+        } 
+
+        static ConstrutorTypes()
+        {
+            age = 43;
+            Console.WriteLine("Age = {0}", age);
+            Console.ReadLine();
+        }
     }
 }
